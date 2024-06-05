@@ -1,0 +1,16 @@
+{
+  "name": "health-companion-app",
+  "version": "1.0.0",
+  "description": "Personalized Health Management App for Chronic Disease Support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build script defined'",
+    "test": "echo 'No test script defined'"
+  },
+  "author": "Nana Khuzwayo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
