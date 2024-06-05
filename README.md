@@ -22,3 +22,7 @@ To run the project locally, follow these steps:
 1. Clone this repository.
 2. Navigate to the project directory.
 3. Open `index.html` in your web browser.
+
+Alternatively, you can access the live version of the project [here](https://nanakzy.github.io/Health-Companion-App/).
+*© 2024 Health Companion App*  
+*Deployed on [nanakzy.tech](https://nanakzy.tech)
