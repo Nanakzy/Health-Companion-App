@@ -1,34 +1,39 @@
-/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 h1, h2 {
+    font-family: 'Pacifico', cursive;
     color: #007bff;
 }
 
-/* Header */
 header {
     background-color: #007bff;
     padding: 20px;
     text-align: center;
 }
 
-/* Main Content */
 main {
     padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
 }
 
-/* Introduction Section */
 #introduction {
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Features Section */
 #features {
     display: flex;
     flex-wrap: wrap;
@@ -41,16 +46,11 @@ main {
 }
 
 .feature img {
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
 }
 
-/* Call-to-Action Section */
 #cta {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -68,7 +68,6 @@ main {
     background-color: #218838;
 }
 
-/* About Section */
 #about {
     text-align: center;
     color: #6c757d;
