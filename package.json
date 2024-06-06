@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "your-frontend-build-command",
+    "build": "npm run build",
     "test": "echo 'No test script defined'"
   },
   "author": "Nana Khuzwayo",
