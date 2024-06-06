@@ -25,4 +25,4 @@ To run the project locally, follow these steps:
 
 Alternatively, you can access the live version of the project [here](https://nanakzy.github.io/Health-Companion-App/).
 *© 2024 Health Companion App*  
-*Deployed on [https://health-companion.tech.nanakzy.tech/]
+*Deployed on [https://healthcompanion.tech.nanakzy.tech/]
