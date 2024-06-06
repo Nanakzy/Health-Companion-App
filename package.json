@@ -5,20 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "webpack --config webpack.config.js",
+    "build": "your-frontend-build-command",
     "test": "echo 'No test script defined'"
-  },
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x"
   },
   "author": "Nana Khuzwayo",
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "webpack": "^5.91.0",
-    "webpack-cli": "^4.9.0"
   }
 }
