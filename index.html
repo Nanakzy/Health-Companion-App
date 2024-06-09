@@ -4,42 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Companion App</title>
-    <img src="images/Health companion app logo.jpeg" width="200" height="70"><img src="images/Health companion app logo.jpeg" width="200" height="70"><img src="images/Health companion app logo.jpeg" width="200" height="70">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            width: 100%;
+            background-color: #007bff;
+            padding: 20px 0; /* Reduced padding */
+            text-align: center;
+        }
+
+        header .logo {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
+        main {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h1, h2 {
+            font-family: 'Pacifico', cursive;
+            color: #007bff;
+            font-weight: bold;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
+        #introduction, #cta, #features, #about {
+            margin-bottom: 30px;
+        }
+
+        .features-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .feature img {
+            width: 70px;
+            height: 70px;
+        }
+
+        footer {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+        }
+
+        #signup {
+            background-color: #28a745; /* Sign Up button color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #signup:hover {
+            background-color: #218838; /* Sign Up button hover color */
+        }
+
+        #login {
+            background-color: #007bff; /* Log In button color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #login:hover {
+            background-color: #0056b3; /* Log In button hover color */
+        }
+    </style>
 </head>
-<body style="background-color: #add8e6;">
+<body>
 
     <header>
-        <h1>Health Companion App</h1>
+        <img src="images/Health companion background.jpeg">
+        <h1>Welcome to Health Companion App</h1>
     </header>
 
     <main>
         <section id="introduction">
-            <h2><b>Welcome to Health Companion App</b></h2>
-            <p><b>Empowering you to manage your health and wellness journey.</b></p>
+            <p>Empowering you to manage your health and wellness journey.</p>
         </section>
         
         <section id="cta">
-            <h2>Get Started</h2>
             <p>Sign up or log in to start managing your health with Health Companion App.</p>
-            <button id="signup">Sign Up</button>
-            <button id="login">Log In</button>
+            <button id="signup" style="background-color: #28a745; color: #fff; border: none; padding: 10px 20px; margin: 10px; cursor: pointer;">Sign Up</button>
+            <button id="login" style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; margin: 10px; cursor: pointer;">Log In</button>
         </section>
 
         <section id="features">
-            <h2>Features</h2>
-            <div class="feature">
-                <p><img src="images/Health Plan Icon.jpeg" alt="Health Plan Icon" width="70" height="70"><b>Personalized health plans</b></p>
-            </div>
-            <div class="feature">
-                 <p><img src="images/Medication Tracking Icon.jpeg" alt="Medication Tracking Icon" width="70" height="70"><b>Medication tracking</b></p>
-            </div>
-            <div class="feature">
-                <p><img src="images/Appointment Reminders Icon.png" alt="Appointment Reminders Icon" width="70" height="70"><b>Appointment reminders</b></p> 
-            </div>
-            <div class="feature">
-                 <p><img src="images/Motivational Support Icon.jpeg" alt="Motivational Support Icon" width="70" height="70"><b>Motivational support</b></p>
+            <div class="features-container">
+                <div class="feature">
+                    <p><img src="images/Health Plan Icon.jpeg">Personalized health plans</p>
+                </div>
+                <div class="feature">
+                    <p><img src="images/Medication Tracking Icon.jpeg">Medication tracking</p>
+                </div>
+                <div class="feature">
+                    <p><img src="images/Appointment Reminders Icon.png">Appointment reminders</p>
+                </div>
+                <div class="feature">
+                    <p><img src="images/Motivational Support Icon.jpeg">Motivational support</p>
+                </div>
             </div>
         </section>
         
