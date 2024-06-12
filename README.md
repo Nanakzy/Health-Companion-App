@@ -19,12 +19,13 @@ Health Companion App is a personalized health management application designed to
 ## Getting Started
 
 To run the project locally, follow these steps:
-
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Open `index.html` in your web browser.
 
-Alternatively, you can access the live version of the project via the landing page [click here](https://nanakzy.github.io/Health-Companion-landing-page) when app is lauched it will take you to the app [click here](https://nanakzy.github.io/Health-Companion-App/).
+Alternatively, you can access the live version of the project via the 
+landing page [click here](https://nanakzy.github.io/Health-Companion-landing-page) when app is lauched it will take you to 
+the app [click here](https://nanakzy.github.io/Health-Companion-App/).
 
 
 ## About the Author
