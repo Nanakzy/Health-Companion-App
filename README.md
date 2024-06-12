@@ -23,5 +23,15 @@ To run the project locally, follow these steps:
 3. Open `index.html` in your web browser.
 
 Alternatively, you can access the live version of the project via the landing page [click here](https://nanakzy.github.io/Health-Companion-landing-page) when app is lauched it will take you to the app [click here](https://nanakzy.github.io/Health-Companion-App/).
-*© 2024 Health Companion App*  
-*Deployed on [https://landing.nanakzy.tech/] and [https://healthcompanion.nanakzy.tech/]
+
+
+## About the Author
+
+I am passionate about leveraging technology for social good, with a background in mechanical engineering transitioning to software development. Connect with me on LinkedIn to learn more about my journey and future endeavors.
+
+
+*© 2024 Health Companion App* 
+GitHub: https://github.com/Nanakzy/Health-Companion-landing-page.git
+GitHub: https://github.com/Nanakzy/Health-Companion-App.git
+*Deployed on landing page [https://landing.nanakzy.tech/]
+*Health Companion App[https://healthcompanion.nanakzy.tech/]
