@@ -12,7 +12,6 @@ Health Companion App is a personalized health management application designed to
 ## Technologies Used
 
 - Frontend: HTML, CSS, JavaScript
-- Backend: Python with Flask
 - Database: MySQL
 
 ## Getting Started
