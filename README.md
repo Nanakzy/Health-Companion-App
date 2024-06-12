@@ -2,6 +2,8 @@
 
 Health Companion App is a personalized health management application designed to support individuals living with chronic diseases. It offers features such as personalized health plans, medication tracking, appointment reminders, and motivational support.
 
+![Health Companion App](images/Screenshot 2024-06-13 012835.png)
+
 ## Features
 
 - Personalized health plans tailored to individual needs.
