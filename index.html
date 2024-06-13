@@ -6,121 +6,19 @@
     <title>Health Companion App</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            width: 100%;
-            background-color: #007bff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        main {
-            width: 100%;
-            max-width: 800px;
-            padding: 20px;
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-        h1 { 
-            font-family:Arial, Helvetica, sans-serif;
-            color: #000;
-            font-weight: bold;
-            font-size: 40px;
-            }
-
-        h2 {
-            font-family: 'Pacifico', cursive;
-            color: #000;
-            font-weight: bold;
-            
-        }
-        #introduction, #cta, #features, #about {
-            margin-bottom: 30px;
-        }
-
-        .features-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-            justify-items: center;
-        }
-
-        .feature {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 10px;
-            text-align: center;
-        }
-
-        .feature img {
-            width: 70px;
-            height: 70px;
-        }
-
-        footer {
-            width: 100%;
-            padding: 10px;
-            text-align: center;
-            background-color: #007bff;
-            color: white;
-        }
-
-        #signup {
-            background-color: #28a745; /* Sign Up button color */
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-        }
-
-        #signup:hover {
-            background-color: #218838; /* Sign Up button hover color */
-        }
-
-        #login {
-            background-color: #007bff; /* Log In button color */
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-        }
-
-        #login:hover {
-            background-color: #0056b3; /* Log In button hover color */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
         <h1>Health Companion App</h1>
         <h2>Empowering you to manage your health and wellness journey</h2>
     </header>
 
     <main>
-        
         <section id="cta">
             <p>Sign up or log in to start managing your health with Health Companion App.</p>
-            <button id="signup" style="background-color: #28a745; color: #fff; border: none; padding: 10px 20px; margin: 10px; cursor: pointer;">Sign Up</button>
-            <button id="login" style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; margin: 10px; cursor: pointer;">Log In</button>
+            <button id="signup">Sign Up</button>
+            <button id="login">Log In</button>
         </section>
 
         <section id="features">
@@ -135,7 +33,15 @@
                     <p><img src="images/Appointment Reminders Icon.png">Appointment reminders</p>
                 </div>
                 <div class="feature">
-                    <p><img src="images/Motivational Support Icon.jpeg">Motivational support</p>
+                    <p>
+                        <img src="images/Motivational Support Icon.jpeg" id="motivationalSupportIcon"> Motivational support
+                    </p>
+                    <select id="motivationalSupportDropdown" style="display: none;">
+                        <option value="emotional-support">Emotional Support</option>
+                        <option value="exercise">Exercise</option>
+                        <option value="handle-stress">How to Handle Stress</option>
+                        <option value="coping-chronic-illness">Coping with a Chronic Illness</option>
+                    </select>
                 </div>
             </div>
         </section>
@@ -153,3 +59,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
