@@ -35,3 +35,20 @@ function fetchFeatures() {
 
 // Fetch features when the page loads
 document.addEventListener("DOMContentLoaded", fetchFeatures);
+
+// Show dropdown when Motivational Support icon is clicked
+document.getElementById("motivationalSupportIcon").addEventListener("click", function() {
+    var dropdown = document.getElementById("motivationalSupportDropdown");
+    if (dropdown.style.display === "none") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+});
+
+// Handle dropdown selection
+document.getElementById("motivationalSupportDropdown").addEventListener("change", function(event) {
+    if (event.target.value === "coping-chronic-illness") {
+        window.open("https://www.webmd.com/depression/chronic-illnesses-depression", "_blank");
+    }
+});
