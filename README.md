@@ -38,3 +38,6 @@ GitHub: https://github.com/Nanakzy/Health-Companion-landing-page.git
 GitHub: https://github.com/Nanakzy/Health-Companion-App.git
 *Deployed on landing page [https://landing.nanakzy.tech/]
 *Health Companion App[https://healthcompanion.nanakzy.tech/]
+
+## Licence 
+MIT
