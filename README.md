@@ -36,8 +36,8 @@ I am passionate about leveraging technology for social good, with a background i
 *© 2024 Health Companion App* 
 GitHub: https://github.com/Nanakzy/Health-Companion-landing-page.git
 GitHub: https://github.com/Nanakzy/Health-Companion-App.git
-*Deployed on landing page [https://landing.nanakzy.tech/]
-*Health Companion App[https://healthcompanion.nanakzy.tech/]
+*Deployed on landing page [https://nanakzy.github.io/Health-Companion-landing-page]
+*Health Companion App [https://nanakzy.github.io/Health-Companion-App]
 
 ## Licence 
 MIT
